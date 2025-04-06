@@ -1,1 +1,1 @@
-alert('hello tashkent')
+// alert('hello tashkent')

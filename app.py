@@ -6,7 +6,7 @@ TODOS = [
     {
         "id": 1,
         "title": "first title",
-        "description": "first descriptio,n"
+        "description": "first description"
     }
 ]
     
