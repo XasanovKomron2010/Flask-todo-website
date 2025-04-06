@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    background-color: #F8F8F8;
+}
+nav{
+    width: 18%;
+    background-color: #F2EAE1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+}
+.profile{
+    margin-top: 55px;
+    margin-bottom: 70px;
+}
+.title{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.title p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.title div{
+    width: 3px;
+    background-color: #F8D442;
+}
+li:hover, .logout:hover{
+    background-color: #FEAF00;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.logout{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 200px;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+section{
+    width: 82%;
+    margin-left: auto;
+}
+.top{
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    justify-content: space-between;
+    background-color: white;
+}
+.top div{
+    display: flex;
+    align-items: center;
+}
+.top > div{
+    gap: 30px;
+}
+.search{
+    border: 1px solid #E5E5E5;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+input{
+    border: 0;
+    height: 32px;
+    color: #C4C4C4;
+}
+input::placeholder{
+    color: #C4C4C4;
+}
+input:focus{
+    outline: none;
+}
+.after_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.after_top button{
+    border: 0;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEAF00;
+    color: white;
+    letter-spacing: 2px;
+}
+.after_top button:hover{
+    cursor: pointer;
+    background-color: #FEAF00 !important;
+}
+.after_top button:focus{
+    background-color: #FEAF00 !important;
+}
+.after_top > div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+table{
+    width: 95% !important;
+    margin: 0 auto;
+}

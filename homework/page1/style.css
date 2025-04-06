@@ -1,0 +1,361 @@
+.cover1{
+    display: block;
+}
+.cover2{
+    display: none;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+nav div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+nav h1{
+    margin-bottom: 0;
+}
+.cover2 nav{
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.cover2 h1{
+    font-size: 25px;
+    white-space: nowrap;
+}
+.cover2 button{
+    border: 0;
+    background-color: transparent;
+}
+.cover2 div{
+    gap: 20px;
+}
+.links{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.drop_links{
+    width: 90%;
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    padding: 5%;
+    gap: 20px;
+}
+.drop_links a{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+.drop_links .buttons{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.drop_links button{
+    max-width: 250px;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.clear{
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.done{
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.drop_links img{
+    position: absolute;
+    right: 5%;
+}
+header{
+    width: 100%;
+    background-color: #E2D9D6;
+    margin-top: 60px;
+}
+header section{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+header section{
+    padding: 60px 0;
+}
+header div{
+    max-width: 465px;
+}
+header h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #A86A3D;
+}
+.view_button{
+    border: 1px solid black;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 7px 12px;
+}
+header img{
+    max-width: 600px;
+    min-width: 200px;
+}
+.after_h{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.after_h > div{
+    max-width: 630px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+.chair{
+    background-color: #FAFAFA;
+}
+.chair img{
+    max-width: 350px;
+    width: 100%;
+    min-width: 100px;
+}
+.vase{
+    background-color: #EAE9E7;
+}
+.vase img{
+    max-width: 250px;
+    width: 100%;
+    min-width: 100px;
+}
+.pc_version{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pc_version > div{
+    max-width: 300px;
+    width: 100%;
+    position: relative;
+}
+.pc_version p{
+    margin-bottom: 0;
+}
+.title{
+    font-weight: 700;
+    margin-top: 20px;
+}
+.price{
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.hovered{
+    width: 232px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    left: 40px;
+    top: 35%;
+    display: none;
+}
+.product:hover ~ .hovered{
+    display: flex;
+}
+.hovered:hover{
+    display: flex;
+}
+.mobile_version{
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.carousel img:first-child{
+    max-width: 90% !important;
+} 
+.bed{
+    width: 100%;
+    background-image: url("images/bed.png");
+    padding: 0 10%;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.bed div:first-child{
+    position: relative;
+    z-index: 1;
+    max-width: 545px;
+    padding: 30px 115px;
+    min-width: 300px;
+}
+.bed .absolute{
+    position: absolute;
+    height: 338px;
+    width: 545px;
+    padding: 0 !important;
+    top: 10%;
+    background-color: white;
+    z-index: 0;
+    opacity: 0.8;
+}
+.bed h2{
+    margin-bottom: 20px;
+}
+.bed p{
+    margin-top: 10px;
+}
+.bed .real{
+    font-size: 28px;
+    color: #7B5136;
+    font-weight: 600;
+}
+.bed .fake{
+    font-size: 20px;
+    color: #7B5136;
+    text-decoration: line-through 1px solid #7B5136;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0;
+}
+.second_pc_version{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.second_pc_version > div, .product2{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.second_pc_version .title, .product2 .title{
+    margin-bottom: 10px;
+}
+.second_pc_version .price, .product2 .price{
+    margin-top: 20px;
+}
+.top{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.move_class{
+    bottom: -80px;
+}
+.carousel-item > div{
+    margin-top: 30px;
+}
+.carousel-item > div:first-child{
+    margin-top: 0;
+}
+@media screen and (max-width: 1000px){
+    .links{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    header section{
+        gap: 30px;
+    }
+    .vase{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav{
+        justify-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+    }
+    .cover1{
+        display: none;
+    }
+    .cover2{
+        display: flex;
+    }
+    .bed{
+        padding-left: 3%;
+    }
+    .bed .absolute{
+        width: 450px;
+    }
+    .bed div:first-child{
+        padding: 30px 50px;
+    }
+    .bed p{
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 475px){
+    .cover2 h1{
+        font-size: 20px;
+    }
+    .chair h2{
+        font-size: 17px;
+    }
+    .chair button{
+        font-size: 10px;
+    }
+    .mobile_version{
+        display: block;
+    }
+    .pc_version{
+        display: none;
+    }
+    .bed div *{
+        display: none !important;
+    }
+    .bed h2, .bed button{
+        display: block !important;
+    }
+    .bed .absolute{
+        width: 270px;
+        height: 139px;
+        top: 30%;
+        left: 5%;
+    }
+}
